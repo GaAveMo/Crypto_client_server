@@ -1,0 +1,22 @@
+﻿  MainClient.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\type_traits(1574,67): warning C4244: 'argument': conversion from 'unsigned __int64' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\thread(51): message : see reference to function template instantiation 'void std::invoke<void(__cdecl *)(int),unsigned __int64,>(_Callable &&,_Ty1 &&) noexcept(false)' being compiled
+          with
+          [
+              _Callable=void (__cdecl *)(int),
+              _Ty1=unsigned __int64
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\thread(61): message : see reference to function template instantiation 'unsigned int std::thread::_Invoke<_Tuple,0,1>(void *) noexcept' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\thread(68): message : see reference to function template instantiation 'unsigned int (__cdecl *std::thread::_Get_invoke<_Tuple,0,1>(std::integer_sequence<size_t,0,1>) noexcept)(void *)' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\thread(87): message : see reference to function template instantiation 'void std::thread::_Start<void(__cdecl &)(int),_Ty>(_Fn,_Ty &&)' being compiled
+          with
+          [
+              _Ty=size_t,
+              _Fn=void (__cdecl &)(int)
+          ]
+C:\Users\Gayane\Desktop\daser\client-server\netproj2022\src\MainClient.cpp(72,44): message : see reference to function template instantiation 'std::thread::thread<void(__cdecl &)(int),size_t,0>(_Fn,size_t &&)' being compiled
+          with
+          [
+              _Fn=void (__cdecl &)(int)
+          ]
+  udpclient.vcxproj -> C:\Users\Gayane\Desktop\daser\client-server\netproj2022\x64\Debug\udpclient.exe
